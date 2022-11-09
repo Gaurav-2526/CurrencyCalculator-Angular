@@ -1,0 +1,9 @@
+<select #currencyName (change)="currencyChange(currencyName.value)">
+    <option>Euro</option>
+    <option>US Dollar</option>
+    <option>Indian Rupees</option>
+    <option>Japanese Yen</option>
+    <option>Canadian Dollar</option>
+</select>
+<br>
+<input type="number" [value]="currencyValue" disabled>

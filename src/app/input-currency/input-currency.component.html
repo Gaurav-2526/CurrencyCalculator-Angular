@@ -1,0 +1,14 @@
+<div class="currData">
+    <div>
+        <select #currency value="" (change)="onCurrencyChange(currency.value)">
+            <option>Euro</option>
+            <option>US Dollar</option>
+            <option>Indian Rupees</option>
+            <option>Japanese Yen</option>
+            <option>Canadian Dollar</option>
+        </select>
+    </div>
+    <div>
+        <input #currencyValue type="number" value="1" (input)="onCurrencyValueChange(currencyValue.value)">     
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<h3>Currency Calculator</h3>
+<div id="main">
+  <div class="currbox">
+    <app-input-currency (currencyData)="currencyData($event)"></app-input-currency>
+  </div>
+  <div class="currbox">
+    <app-output-currency [currencyData]="currencyInfo"></app-output-currency>
+  </div>
+</div>
